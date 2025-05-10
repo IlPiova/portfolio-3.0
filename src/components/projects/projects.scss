@@ -1,0 +1,77 @@
+@import "../../style//utility";
+.projects-container {
+  margin: 2em 0px;
+  columns: 250px;
+  gap: 0.8em;
+  width: 100%;
+  height: fit-content;
+  .project-container {
+    @extend .box;
+    align-items: flex-start;
+    margin: 32px 0px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+    break-inside: avoid;
+    .project-image-container {
+      width: 100%;
+      height: auto;
+      object-fit: fill;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .project-image {
+        width: 100%;
+        border-radius: 10px;
+        align-self: center;
+      }
+    }
+    .project-name {
+      @extend .inter-bolder;
+      margin: 0.5em 0px;
+      font-size: 1.5em;
+      margin-left: 10px;
+    }
+    .project-description {
+      margin-top: 0;
+      margin-left: 10px;
+    }
+    .project-technologies {
+      @extend .container;
+      justify-content: flex-start;
+      flex-direction: row;
+      padding: 0px 10px;
+      column-gap: 12px;
+      row-gap: 0.5em;
+      flex-wrap: wrap;
+    }
+
+    .technology {
+      @extend p;
+      font-size: 0.8em;
+      margin: 0px;
+      padding: 3px 5px;
+      border-radius: 2px;
+    }
+    .buttons-container {
+      @extend .container;
+      width: fit-content;
+      flex-direction: row;
+      justify-content: flex-end;
+      .project-urls {
+        @extend .box;
+        width: fit-content;
+        height: auto;
+        font-weight: 400;
+        text-decoration: none;
+
+        // background-color: $dark-accent;
+      }
+      .demo-button {
+        color: black;
+        background-color: $primary-color;
+      }
+    }
+  }
+}

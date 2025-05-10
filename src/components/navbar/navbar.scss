@@ -1,0 +1,19 @@
+@import "../../style/utility";
+.navbar {
+  @extend .container;
+  flex-direction: row;
+  justify-content: space-around;
+  width: fit-content;
+  height: auto;
+  background-color: $bg-color;
+  border: 1px solid lighten($secondary-color, $amount: 10);
+  border-radius: 30px;
+  padding: 0.5em 1em;
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  transform: translate(-50%);
+  .nav-item {
+    text-decoration: none;
+  }
+}

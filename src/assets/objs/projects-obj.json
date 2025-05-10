@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Portfolio",
+    "demoUrl": "https://ilpiova.github.io/CSS-S2I-firstproject/",
+    "codeUrl": "https://github.com/IlPiova/CSS-S2I-firstproject",
+    "imageUrl": "/assets/projects-imgs/portfolioScreen.png",
+    "description": "Primo progetto del master per Front-End Developer.Il primo sito completo che ho creato.",
+    "technologies": ["HTML", "SCSS", "GIT", "GITHUB"]
+  },
+  {
+    "id": "2",
+    "name": "Simple Counter",
+    "demoUrl": "https://s2i-ilpiova-simple-counter.netlify.app",
+    "codeUrl": "https://github.com/IlPiova/simple-counter",
+    "imageUrl": "/assets/projects-imgs/simpleCounteeScreen.png",
+    "description": "Secondo progetto del master per Front-End Developer.<br />È stato fondamentale per capire gli eventi in Javascript e soprattutto migliorare nella precisione del codice. Permette di incrementare o decrementare il contatore di una unità, e la converte in binario, ottale ed esadecimale.",
+    "technologies": ["HTML", "CSS", "JAVASCRIPT", "GIT", "GITHUB"]
+  },
+  {
+    "id": "3",
+    "name": "HackerNews client",
+    "demoUrl": "https://github.com/IlPiova/S2I-JSAdvanced-APIHackersNews",
+    "codeUrl": "https://ilpiova-s2i-hackersnewsproject.netlify.app",
+    "imageUrl": "/assets/projects-imgs/hackerNewsScreen.png",
+    "description": "Terzo progetto del master per Front-End Developer.<br />Le sfide più grandi sono state capire Javascript asincrono e Webpack. Effettua una richiesta API a Hackernews per ottenere le notizie appena uscite. ",
+    "technologies": [
+      "HTML",
+      "SCSS",
+      "JAVASCRIPT",
+      "REST-API",
+      "WEBPACK",
+      "AXIOS",
+      "GIT",
+      "GITHUB"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Moov: servizio di sharing di mezzi di trasporto",
+    "demoUrl": "https://codepen.io/Cristian-Piovani/pen/vEYOawW?editors=0011",
+    "codeUrl": "https://github.com/IlPiova/S2I-Typescript-Project",
+    "imageUrl": "/assets/projects-imgs/moovScreen.png",
+    "description": "Quarto progetto del master per Front-End Developer.<br />Costruzione della struttura organizzativa base di un servizio di sharing di monopattini, scooter e biciclette. ",
+    "technologies": ["TYPESCRIPT", "CODEPEN", "OOP", "GIT", "GITHUB"]
+  },
+  {
+    "id": "5",
+    "name": "Freshly Food",
+    "demoUrl": "https://ilpiova-freshlyfood.netlify.app/",
+    "codeUrl": "https://github.com/IlPiova/S2I-react-freshlyFood",
+    "imageUrl": "/assets/projects-imgs/frashlyFoodScreen.jpg",
+    "description": "quinto progetto pratico per il corso di Start2Impact: un sito di ricette vegetariane utilizzando React e le api Spoonacular",
+    "technologies": [
+      "REACT",
+      "SCSS",
+      "REACT-ROUTER",
+      "CONTEXT-API",
+      "AXIOS",
+      "GIT",
+      "GITHUB"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Progetto finale: Global Warming Data",
+    "demoUrl": "https://ilpiova-s2i-global-warming-data.netlify.app/",
+    "codeUrl": "https://github.com/IlPiova/S2I-finalProjecct-global-warming-data",
+    "imageUrl": "/assets/projects-imgs/GWDScreen.png",
+    "description": "progetto finale per il corso di Start2Impact, ho sviluppato un sito dashboard mostrante i dati del riscaldamento climatico utilizzando le api global-warming",
+    "technologies": [
+      "REACT",
+      "SCSS",
+      "REACT-ROUTER",
+      "REDUX",
+      "RTK-QUERY",
+      "RECHARTS",
+      "GIT",
+      "GITHUB"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+@import "../../style/utility";
+.general-social-container {
+  @extend .container;
+  width: 80%;
+  gap: 1em;
+  flex-direction: row;
+  .social-container {
+    @extend .container;
+    width: 55px;
+    height: auto;
+    object-fit: cover;
+    .social-link {
+      width: inherit;
+      .social {
+        width: inherit;
+        padding: 0.5em;
+
+        border-radius: 100%;
+        border: 1px solid white;
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+// Gestione dei caratteri
+
+p,
+a {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-bold {
+  @extend p;
+  font-weight: 600;
+}
+.inter-bolder {
+  @extend p;
+  font-weight: 700;
+}
+
+//Dichiarazione variabili
+$primary-color: white;
+$secondary-color: rgb(72, 71, 71);
+$bg-color: black;
+//Classi condivise
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: $primary-color;
+}
+
+body {
+  margin: 0 auto;
+
+  width: 60%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  @extend .inter-bolder;
+  font-size: 2.2em;
+  margin-bottom: 2em;
+}
+
+.subtitle {
+  @extend .title;
+  font-size: 1.8em;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8em;
+}
+.box {
+  @extend .container;
+  width: fit-content;
+  font-size: 0.8em;
+  border: 1px solid $secondary-color;
+  border-radius: 6px;
+  padding: 0.5em;
+}

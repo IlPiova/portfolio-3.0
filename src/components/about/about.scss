@@ -1,0 +1,20 @@
+@import "../../style/utility";
+.about.container {
+  .profile-image-container {
+    .profile-pic {
+    }
+  }
+  .about-info-container {
+    .place-info {
+    }
+    .work-info {
+    }
+  }
+  .about-subtitle {
+    @extend .subtitle;
+    font-weight: 600;
+  }
+  .description {
+    @extend p;
+  }
+}

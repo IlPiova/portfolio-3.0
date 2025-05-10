@@ -1,0 +1,32 @@
+@import "../../style/utility";
+
+.skills-container {
+  @extend .container;
+  flex-direction: row;
+  gap: 0.8em;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .skill {
+    @extend .container;
+    border: 1px solid $secondary-color;
+    width: 150px;
+    height: auto;
+    padding: 0.8em 0.5em;
+    border-radius: 10px;
+    // flex-direction: row;
+    gap: 0.2em;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    .skill-logo {
+      width: 30%;
+    }
+    .skill-name {
+      font-size: 0.8em;
+      color: darken($primary-color, $amount: 15);
+    }
+  }
+}
