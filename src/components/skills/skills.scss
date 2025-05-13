@@ -15,9 +15,9 @@
     height: auto;
     padding: 0.8em 0.5em;
     border-radius: 10px;
-    // flex-direction: row;
+    flex-direction: row;
     gap: 0.2em;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     color: white;
 

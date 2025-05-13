@@ -7,14 +7,14 @@ export default function Projects() {
     return projectsObj.map((project) => {
       return (
         <div className="project-container" key={project.id}>
-          <div class="project-image-container">
+          <div className="project-image-container">
             <a href={project.demoUrl}>
-              <img class="project-image" src={project.imageUrl} alt="" />
+              <img className="project-image" src={project.imageUrl} alt="" />
             </a>
           </div>
-          <h3 class="project-name">{project.name}</h3>
-          <p class="project-description">{project.description}</p>
-          <div class="project-technologies">
+          <h3 className="project-name">{project.name}</h3>
+          <p className="project-description">{project.description}</p>
+          <div className="project-technologies">
             {project.technologies.map((technology, i) => (
               <div className="box">{technology}</div>
             ))}
@@ -33,7 +33,9 @@ export default function Projects() {
   }
   return (
     <>
-      <h2 className="subtitle">Projects</h2>
+      <h2 className="subtitle" id="projects">
+        Projects
+      </h2>
       <div className="projects-container">{makeProjectList()}</div>
     </>
   );

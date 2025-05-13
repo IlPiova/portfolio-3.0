@@ -1,17 +1,50 @@
 @import "../../style/utility";
-.about.container {
-  .profile-image-container {
-    .profile-pic {
-    }
-  }
+.about-container {
+  margin-bottom: 2em;
+
   .about-info-container {
-    .place-info {
+    @extend .container;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2em 0 1em 0;
+    .profile-image-container {
+      width: fit-content;
+      height: 80px;
+      border-radius: 100%;
+      .profile-pic {
+        height: 100%;
+        width: auto;
+        border-radius: 100%;
+
+        object-fit: cover;
+      }
     }
-    .work-info {
+    .personal-info-container {
+      width: 100%;
+      .about-title {
+        @extend .title;
+        font-size: 1.5em;
+        margin-bottom: 0;
+      }
+      .place-info {
+        font-size: 0.8em;
+        margin-bottom: 0.4em;
+      }
+      .work-info {
+        font-size: 12px;
+        text-decoration: none;
+        color: rgb(4, 241, 4);
+        background-color: rgba($color: rgb(4, 213, 4), $alpha: 0.4);
+        padding: 0.2em 0.5em;
+        border: 1px solid rgb(4, 241, 4);
+        border-radius: 15px;
+      }
     }
   }
   .about-subtitle {
     @extend .subtitle;
+    font-size: 1em;
     font-weight: 600;
   }
   .description {

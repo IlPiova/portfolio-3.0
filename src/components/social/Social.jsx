@@ -2,6 +2,7 @@ import "./social.scss";
 import linkedInLogo from "../../assets/icons/social icons/linkedin-white.png";
 import start2ImpactLogo from "../../assets/icons/social icons/space-shuttle-white.png";
 import githubLogo from "../../assets/icons/social icons/github-white.png";
+import cvLogo from "../../assets/icons/social icons/cv-logo.png";
 
 export default function Social() {
   return (
@@ -37,6 +38,15 @@ export default function Social() {
             className="social-link"
           >
             <img src={githubLogo} alt="github logo" className="social" />
+          </a>
+        </div>
+        <div className="social-container">
+          <a
+            href="../../assets/documents/CV Piovani Cristian - Front-End Developer.pdf"
+            target="_blank"
+            className="social-link"
+          >
+            <img src={cvLogo} alt="LinkedIn logo" className="social" />
           </a>
         </div>
       </div>

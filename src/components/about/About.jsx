@@ -1,20 +1,24 @@
 import "./about.scss";
+import aboutPhoto from "../../assets/imgs/about-photo.jpg";
 
 export default function About() {
   return (
-    <div className="about-container">
-      <div className="profile-image-container">
-        <img src="" alt="" className="profile-pic" />
-      </div>
+    <div className="about-container" id="about">
       <div className="about-info-container">
-        <h1 className="title">Cristian Piovani</h1>
-        <p className="place-info">Quartu Sant'Elena (CA)</p>
-        <a href="" className="work-info first-work">
-          Available for work
-        </a>
-        {/* <a href="" className="work-info second-work">
-          Sentiamoci
-        </a> */}
+        <div className="profile-image-container">
+          <img src={aboutPhoto} alt="about-photo" className="profile-pic" />
+        </div>
+        <div className="personal-info-container">
+          <h1 className="about-title">Cristian Piovani</h1>
+          <p className="place-info">Quartu Sant'Elena (CA)</p>
+          <a
+            href="https://www.linkedin.com/in/cristianpiovani/"
+            target="_blank"
+            className="work-info "
+          >
+            Available for work
+          </a>
+        </div>
       </div>
       <h2 className="about-subtitle">Chi sono:</h2>
       <p className="description">

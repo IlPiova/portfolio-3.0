@@ -1,4 +1,5 @@
 import About from "../../components/about/About";
+import ExpAndEdu from "../../components/experence-and-education/ExpAndEdu";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import Projects from "../../components/projects/Projects";
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <About />
       <Social />
+      <ExpAndEdu />
       <Skills />
       <Projects />
       <Footer />

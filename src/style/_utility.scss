@@ -20,19 +20,19 @@ a {
 $primary-color: white;
 $secondary-color: rgb(72, 71, 71);
 $bg-color: black;
+
 //Classi condivise
 * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
   line-height: 1.5em;
-  font-size: 1em;
   color: $primary-color;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0 auto;
-
   width: 60%;
   background-color: black;
   display: flex;
@@ -40,15 +40,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+::selection {
+  background-color: rgba($color: rgb(4, 213, 4), $alpha: 0.4);
+}
 .title {
   @extend .inter-bolder;
-  font-size: 2.2em;
-  margin-bottom: 2em;
+  font-size: 2em;
 }
 
 .subtitle {
   @extend .title;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 .container {

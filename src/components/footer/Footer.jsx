@@ -5,10 +5,15 @@ export default function Footer() {
   return (
     <>
       <div className="footer-container">
+        <h2 className="subtitle">
+          Cristian <br></br> Piovani
+        </h2>
         <Social />
-        <h2 className="subtitle">Dove Trovarmi:</h2>
-        <p>09045, Quartu Sant'Elena, Cagliari</p>
-        <p>Sito web Cristian Piovani</p>
+        {/* <div className="footer-link">
+<a href="" className="footer-item">Leggi il mio cv</a>
+<a href="" className="footer-item">Profilo Github</a>
+<a href="" className="footer-item">Il mio LinkedIn</a>   
+   </div> */}
       </div>
     </>
   );

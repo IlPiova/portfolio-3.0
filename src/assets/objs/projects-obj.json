@@ -14,7 +14,7 @@
     "demoUrl": "https://s2i-ilpiova-simple-counter.netlify.app",
     "codeUrl": "https://github.com/IlPiova/simple-counter",
     "imageUrl": "/assets/projects-imgs/simpleCounteeScreen.png",
-    "description": "Secondo progetto del master per Front-End Developer.<br />È stato fondamentale per capire gli eventi in Javascript e soprattutto migliorare nella precisione del codice. Permette di incrementare o decrementare il contatore di una unità, e la converte in binario, ottale ed esadecimale.",
+    "description": "Secondo progetto del master per Front-End Developer. È stato fondamentale per capire gli eventi in Javascript e soprattutto migliorare nella precisione del codice. Permette di incrementare o decrementare il contatore di una unità, e la converte in binario, ottale ed esadecimale.",
     "technologies": ["HTML", "CSS", "JAVASCRIPT", "GIT", "GITHUB"]
   },
   {
@@ -23,7 +23,7 @@
     "demoUrl": "https://github.com/IlPiova/S2I-JSAdvanced-APIHackersNews",
     "codeUrl": "https://ilpiova-s2i-hackersnewsproject.netlify.app",
     "imageUrl": "/assets/projects-imgs/hackerNewsScreen.png",
-    "description": "Terzo progetto del master per Front-End Developer.<br />Le sfide più grandi sono state capire Javascript asincrono e Webpack. Effettua una richiesta API a Hackernews per ottenere le notizie appena uscite. ",
+    "description": "Terzo progetto del master per Front-End Developer. Le sfide più grandi sono state capire Javascript asincrono e Webpack. Effettua una richiesta API a Hackernews per ottenere le notizie appena uscite. ",
     "technologies": [
       "HTML",
       "SCSS",
@@ -41,7 +41,7 @@
     "demoUrl": "https://codepen.io/Cristian-Piovani/pen/vEYOawW?editors=0011",
     "codeUrl": "https://github.com/IlPiova/S2I-Typescript-Project",
     "imageUrl": "/assets/projects-imgs/moovScreen.png",
-    "description": "Quarto progetto del master per Front-End Developer.<br />Costruzione della struttura organizzativa base di un servizio di sharing di monopattini, scooter e biciclette. ",
+    "description": "Quarto progetto del master per Front-End Developer. Costruzione della struttura organizzativa base di un servizio di sharing di monopattini, scooter e biciclette. ",
     "technologies": ["TYPESCRIPT", "CODEPEN", "OOP", "GIT", "GITHUB"]
   },
   {
