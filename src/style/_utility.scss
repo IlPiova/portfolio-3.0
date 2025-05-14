@@ -27,6 +27,7 @@ $bg-color: black;
   box-sizing: border-box;
   padding: 0;
   line-height: 1.5em;
+  font-family: "Inter", sans-serif;
   color: $primary-color;
   scroll-behavior: smooth;
 }
@@ -70,4 +71,13 @@ body {
   border: 1px solid $secondary-color;
   border-radius: 6px;
   padding: 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: fit-content;
+    margin: auto;
+    padding: 0 1em;
+    overflow-x: hidden;
+  }
 }

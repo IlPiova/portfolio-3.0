@@ -1,13 +1,14 @@
 @import "../../style/utility";
 .about-container {
-  margin-bottom: 2em;
+  margin: 6em 0 2em 0;
+  width: 100%;
 
   .about-info-container {
     @extend .container;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 2em 0 1em 0;
+    margin: 2em 0 1.5em 0;
     .profile-image-container {
       width: fit-content;
       height: 80px;
@@ -49,5 +50,26 @@
   }
   .description {
     @extend p;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    margin: 2em 0;
+
+    .about-info-container {
+      .profile-image-container {
+        height: 60px;
+      }
+      .personal-info-container {
+        width: 100%;
+        .about-title {
+          font-size: 1.5em;
+        }
+        .work-info {
+          font-size: 10px;
+        }
+      }
+    }
   }
 }

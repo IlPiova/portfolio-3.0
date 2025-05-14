@@ -5,10 +5,7 @@
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  gap: 0;
-  left: 50%;
-  transform: translate(-50%);
-  width: 80%;
+  width: 100%;
   .selectors-container {
     width: fit-content;
     display: flex;
@@ -23,12 +20,23 @@
       display: flex;
       justify-content: flex-start;
       align-items: center;
+      background-color: $secondary-color;
+      color: black;
       border: 1px solid $secondary-color;
       border-top-left-radius: 8px;
       border-top-right-radius: 8px;
       padding: 0.2em 0.5em;
       margin-bottom: 0;
       cursor: pointer;
+      z-index: 3;
+
+      &.active {
+        background-color: black;
+        color: $primary-color;
+        border-bottom: 1px solid black; // <-- simula continuità con .section
+        margin-bottom: -1px;
+        z-index: 2;
+      }
     }
   }
   .section {
@@ -99,9 +107,8 @@
   }
 }
 
-.active {
-  background-color: $primary-color;
-  color: black;
-  border-bottom: none;
-  z-index: 2;
+@media screen and (max-width: 600px) {
+  .section-container {
+    width: 90%;
+  }
 }

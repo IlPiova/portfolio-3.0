@@ -1,14 +1,14 @@
 @import "../../style//utility";
 .projects-container {
+  width: 90%;
   margin: 2em 0px;
   columns: 250px;
   gap: 0.8em;
-  width: 100%;
   height: fit-content;
   .project-container {
     @extend .box;
     align-items: flex-start;
-    margin: 32px 0px;
+    // margin: 32px 0px;
     padding-bottom: 10px;
     width: 100%;
     border-radius: 10px;
@@ -16,7 +16,7 @@
     .project-image-container {
       width: 100%;
       height: auto;
-      object-fit: fill;
+      object-fit: cover;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -58,6 +58,7 @@
       @extend .container;
       width: fit-content;
       flex-direction: row;
+      align-self: flex-end;
       justify-content: flex-end;
       .project-urls {
         @extend .box;
@@ -65,13 +66,17 @@
         height: auto;
         font-weight: 400;
         text-decoration: none;
-
-        // background-color: $dark-accent;
       }
       .demo-button {
         color: black;
         background-color: $primary-color;
       }
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects-container {
+    columns: 140x;
   }
 }

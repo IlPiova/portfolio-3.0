@@ -11,10 +11,17 @@
   padding: 0.5em 1em;
   position: fixed;
   left: 50%;
-  bottom: 30px;
+  top: 30px;
   transform: translate(-50%);
-  z-index: 300;
+  z-index: 99;
   .nav-item {
     text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    top: auto;
+    bottom: 30px;
   }
 }

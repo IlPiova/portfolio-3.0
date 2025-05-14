@@ -2,6 +2,7 @@
 
 .skills-container {
   @extend .container;
+  width: 100%;
   flex-direction: row;
   gap: 0.8em;
   justify-content: space-around;
