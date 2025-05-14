@@ -46,7 +46,7 @@ export default function Social() {
             target="_blank"
             className="social-link"
           >
-            <img src={cvLogo} alt="LinkedIn logo" className="social" />
+            <img src={cvLogo} alt="Curriculum logo" className="social" />
           </a>
         </div>
       </div>

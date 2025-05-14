@@ -1,1 +1,107 @@
 @import "../../style//utility";
+.section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  gap: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+  .selectors-container {
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    gap: 0 0.2em;
+    margin-bottom: 0;
+
+    .section-selector {
+      font-family: "Inter", sans-serif;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border: 1px solid $secondary-color;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      padding: 0.2em 0.5em;
+      margin-bottom: 0;
+      cursor: pointer;
+    }
+  }
+  .section {
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    border: 1px solid $secondary-color;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0.2em 0.5em;
+    margin-top: -1px;
+
+    .exp-title {
+      @extend .title;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+    .exp-description {
+      line-height: 1.5em;
+    }
+    .exp-redirect {
+      text-decoration: none;
+
+      .cv-link {
+        text-decoration-color: rgb(4, 241, 4);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.timeline {
+  position: relative;
+  margin-left: 1.5em;
+  padding-left: 1em;
+  border-left: 2px solid $secondary-color;
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2em;
+
+    .timeline-dot {
+      position: absolute;
+      left: -1.4em;
+      top: 0.3em;
+      width: 12px;
+      height: 12px;
+      background-color: $primary-color;
+      border-radius: 100%;
+    }
+
+    .timeline-content {
+      padding-left: 0.5em;
+
+      .edu-type {
+        font-weight: 600;
+        font-size: 1em;
+      }
+
+      .edu-years {
+        font-size: 0.9em;
+        color: #aaa;
+      }
+    }
+  }
+}
+
+.active {
+  background-color: $primary-color;
+  color: black;
+  border-bottom: none;
+  z-index: 2;
+}
