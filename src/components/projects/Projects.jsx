@@ -9,14 +9,20 @@ export default function Projects() {
         <div className="project-container" key={project.id}>
           <div className="project-image-container">
             <a href={project.demoUrl}>
-              <img className="project-image" src={project.imageUrl} alt="" />
+              <img
+                className="project-image"
+                src={project.imageUrl}
+                alt={`Vai a testare il progetto: ${project.name}`}
+              />
             </a>
           </div>
           <h3 className="project-name">{project.name}</h3>
           <p className="project-description">{project.description}</p>
           <div className="project-technologies">
             {project.technologies.map((technology, i) => (
-              <div className="box">{technology}</div>
+              <div className="box" key={i}>
+                {technology}
+              </div>
             ))}
           </div>
           <div className="buttons-container">

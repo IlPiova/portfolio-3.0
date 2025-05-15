@@ -49,7 +49,7 @@
     "name": "Freshly Food",
     "demoUrl": "https://ilpiova-freshlyfood.netlify.app/",
     "codeUrl": "https://github.com/IlPiova/S2I-react-freshlyFood",
-    "imageUrl": "/assets/projects-imgs/frashlyFoodScreen.jpg",
+    "imageUrl": "/assets/projects-imgs/frashlyFoodScreen.webp",
     "description": "quinto progetto pratico per il corso di Start2Impact: un sito di ricette vegetariane utilizzando React e le api Spoonacular",
     "technologies": [
       "REACT",
