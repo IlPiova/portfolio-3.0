@@ -22,11 +22,11 @@ export default function About() {
       </div>
       <h2 className="about-subtitle">Chi sono:</h2>
       <p className="description">
-        Ho da poco finito il Master in Front-End development con Start2Impact,
-        creando progetti in HTML, CSS, JS, React e TypeScript. Creo interfacce
-        pulite, performanti e accessibili con occhio al dettaglio. Cerco
-        un'opportunità per applicare le mie skill e crescere su progetti
-        stimolanti.
+        Laureato in Scienze della Comunicazione, durante il Master di
+        Start2Impact ho sviluppato progetti in HTML, CSS, JS, React e
+        TypeScript. Creo interfacce pulite, performanti e accessibili con occhio
+        al dettaglio. Cerco un'opportunità per applicare le mie skill e crescere
+        su progetti stimolanti.
       </p>
     </div>
   );
