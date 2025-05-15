@@ -1,8 +1,8 @@
 import "./social.scss";
-import linkedInLogo from "../../assets/icons/social icons/linkedin-white.png";
-import start2ImpactLogo from "../../assets/icons/social icons/space-shuttle-white.png";
-import githubLogo from "../../assets/icons/social icons/github-white.png";
-import cvLogo from "../../assets/icons/social icons/cv-logo.png";
+import linkedInLogo from "../../assets/icons/social icons/linkedin-white.webp";
+import start2ImpactLogo from "../../assets/icons/social icons/space-shuttle-white.webp";
+import githubLogo from "../../assets/icons/social icons/github-white.webp";
+import cvLogo from "../../assets/icons/social icons/cv-logo.webp";
 
 export default function Social() {
   return (

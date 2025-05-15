@@ -6,6 +6,7 @@
   align-items: center;
   position: relative;
   width: 100%;
+  margin: 1em 0 2em 0;
   .selectors-container {
     width: fit-content;
     display: flex;
@@ -33,39 +34,43 @@
       &.active {
         background-color: black;
         color: $primary-color;
-        border-bottom: 1px solid black; // <-- simula continuità con .section
+        border-bottom: 1px solid black;
         margin-bottom: -1px;
         z-index: 2;
       }
     }
   }
   .section {
-    font-family: "Inter", sans-serif;
     width: 100%;
+    height: fit-content;
+    font-family: "Inter", sans-serif;
     border: 1px solid $secondary-color;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
-    padding: 0.2em 0.5em;
+    padding: 0.5em 0.8em;
     margin-top: -1px;
+    .exp-container {
+      @extend .container;
+      gap: 0.5em;
+      .exp-title {
+        @extend .title;
+        font-weight: 900;
+        letter-spacing: 0.1em;
+        text-align: center;
+      }
+      .exp-description {
+        line-height: 1.5em;
+      }
+      .exp-redirect {
+        text-decoration: none;
 
-    .exp-title {
-      @extend .title;
-      font-weight: 900;
-      letter-spacing: 0.1em;
-      text-align: center;
-    }
-    .exp-description {
-      line-height: 1.5em;
-    }
-    .exp-redirect {
-      text-decoration: none;
-
-      .cv-link {
-        text-decoration-color: rgb(4, 241, 4);
-        text-decoration-thickness: 1px;
-        text-underline-offset: 2px;
-        font-weight: 600;
+        .cv-link {
+          text-decoration-color: rgb(4, 241, 4);
+          text-decoration-thickness: 1px;
+          text-underline-offset: 2px;
+          font-weight: 600;
+        }
       }
     }
   }
@@ -109,6 +114,6 @@
 
 @media screen and (max-width: 600px) {
   .section-container {
-    width: 90%;
+    width: 100%;
   }
 }

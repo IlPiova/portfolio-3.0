@@ -17,6 +17,7 @@ export default function ExpAndEdu() {
   }
   return (
     <>
+      <h2 className="subtitle">Experience</h2>
       <div className="section-container">
         <div className="selectors-container">
           <div

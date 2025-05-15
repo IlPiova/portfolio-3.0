@@ -1,12 +1,12 @@
 import "./skills.scss";
-import htmlLogo from "../../assets/icons/skills/html5-logo.png";
-import cssLogo from "../../assets/icons/skills/css3-logo.png";
-import sassLogo from "../../assets/icons/skills/sass-logo.png";
-import javascriptLogo from "../../assets/icons/skills/javascript-logo.png";
-import typesctiptLogo from "../../assets/icons/skills/typescript-logo.png";
-import reactLogo from "../../assets/icons/skills/react-logo.png";
-import gitLogo from "../../assets/icons/skills/git-logo.png";
-import githubLogo from "../../assets/icons/social icons/github-white.png";
+import htmlLogo from "../../assets/icons/skills/html5-logo.webp";
+import cssLogo from "../../assets/icons/skills/css3-logo.webp";
+import sassLogo from "../../assets/icons/skills/sass-logo.webp";
+import javascriptLogo from "../../assets/icons/skills/javascript-logo.webp";
+import typesctiptLogo from "../../assets/icons/skills/typescript-logo.webp";
+import reactLogo from "../../assets/icons/skills/react-logo.webp";
+import gitLogo from "../../assets/icons/skills/git-logo.webp";
+import githubLogo from "../../assets/icons/social icons/github-white.webp";
 
 export default function Skills() {
   return (

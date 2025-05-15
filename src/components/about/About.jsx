@@ -1,5 +1,5 @@
 import "./about.scss";
-import aboutPhoto from "../../assets/imgs/about-photo.jpg";
+import aboutPhoto from "../../assets/imgs/about-photo.webp";
 
 export default function About() {
   return (

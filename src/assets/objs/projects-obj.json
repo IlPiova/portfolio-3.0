@@ -4,7 +4,7 @@
     "name": "Portfolio",
     "demoUrl": "https://ilpiova.github.io/CSS-S2I-firstproject/",
     "codeUrl": "https://github.com/IlPiova/CSS-S2I-firstproject",
-    "imageUrl": "/assets/projects-imgs/portfolioScreen.png",
+    "imageUrl": "/assets/projects-imgs/portfolioScreen.webp",
     "description": "Primo progetto del master per Front-End Developer.Il primo sito completo che ho creato.",
     "technologies": ["HTML", "SCSS", "GIT", "GITHUB"]
   },
@@ -13,7 +13,7 @@
     "name": "Simple Counter",
     "demoUrl": "https://s2i-ilpiova-simple-counter.netlify.app",
     "codeUrl": "https://github.com/IlPiova/simple-counter",
-    "imageUrl": "/assets/projects-imgs/simpleCounteeScreen.png",
+    "imageUrl": "/assets/projects-imgs/simpleCounteeScreen.webp",
     "description": "Secondo progetto del master per Front-End Developer. È stato fondamentale per capire gli eventi in Javascript e soprattutto migliorare nella precisione del codice. Permette di incrementare o decrementare il contatore di una unità, e la converte in binario, ottale ed esadecimale.",
     "technologies": ["HTML", "CSS", "JAVASCRIPT", "GIT", "GITHUB"]
   },
@@ -22,7 +22,7 @@
     "name": "HackerNews client",
     "demoUrl": "https://github.com/IlPiova/S2I-JSAdvanced-APIHackersNews",
     "codeUrl": "https://ilpiova-s2i-hackersnewsproject.netlify.app",
-    "imageUrl": "/assets/projects-imgs/hackerNewsScreen.png",
+    "imageUrl": "/assets/projects-imgs/hackerNewsScreen.webp",
     "description": "Terzo progetto del master per Front-End Developer. Le sfide più grandi sono state capire Javascript asincrono e Webpack. Effettua una richiesta API a Hackernews per ottenere le notizie appena uscite. ",
     "technologies": [
       "HTML",
@@ -40,7 +40,7 @@
     "name": "Moov: servizio di sharing di mezzi di trasporto",
     "demoUrl": "https://codepen.io/Cristian-Piovani/pen/vEYOawW?editors=0011",
     "codeUrl": "https://github.com/IlPiova/S2I-Typescript-Project",
-    "imageUrl": "/assets/projects-imgs/moovScreen.png",
+    "imageUrl": "/assets/projects-imgs/moovScreen.webp",
     "description": "Quarto progetto del master per Front-End Developer. Costruzione della struttura organizzativa base di un servizio di sharing di monopattini, scooter e biciclette. ",
     "technologies": ["TYPESCRIPT", "CODEPEN", "OOP", "GIT", "GITHUB"]
   },
@@ -66,7 +66,7 @@
     "name": "Progetto finale: Global Warming Data",
     "demoUrl": "https://ilpiova-s2i-global-warming-data.netlify.app/",
     "codeUrl": "https://github.com/IlPiova/S2I-finalProjecct-global-warming-data",
-    "imageUrl": "/assets/projects-imgs/GWDScreen.png",
+    "imageUrl": "/assets/projects-imgs/GWDScreen.webp",
     "description": "progetto finale per il corso di Start2Impact, ho sviluppato un sito dashboard mostrante i dati del riscaldamento climatico utilizzando le api global-warming",
     "technologies": [
       "REACT",
