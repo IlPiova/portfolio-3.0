@@ -20,8 +20,8 @@
   {
     "id": "3",
     "name": "HackerNews client",
-    "demoUrl": "https://github.com/IlPiova/S2I-JSAdvanced-APIHackersNews",
-    "codeUrl": "https://ilpiova-s2i-hackersnewsproject.netlify.app",
+    "demoUrl": "https://ilpiova-s2i-hackersnewsproject.netlify.app",
+    "codeUrl": "https://github.com/IlPiova/S2I-JSAdvanced-APIHackersNews",
     "imageUrl": "/assets/projects-imgs/hackerNewsScreen.webp",
     "description": "Terzo progetto del master per Front-End Developer. Le sfide più grandi sono state capire Javascript asincrono e Webpack. Effettua una richiesta API a Hackernews per ottenere le notizie appena uscite. ",
     "technologies": [
