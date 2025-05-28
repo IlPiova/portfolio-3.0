@@ -1,9 +1,11 @@
 import Home from "./pages/home/Home";
-
+import ParticlesBg from "./components/particles/Particles-bg";
 function App() {
   return (
     <>
-      <Home />
+      <ParticlesBg>
+        <Home />
+      </ParticlesBg>
     </>
   );
 }

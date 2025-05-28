@@ -78,5 +78,14 @@
       "GIT",
       "GITHUB"
     ]
+  },
+  {
+    "id": "7",
+    "name": "Weather dashboard",
+    "demoUrl": "https://ilpiova-weather-dashboard.netlify.app",
+    "codeUrl": "https://github.com/IlPiova/Weather-Dashboard",
+    "imageUrl": "/assets/projects-imgs/weatherDashboardScreen.webp",
+    "description": "Progetto personale che permette di visualizzare dati come temperatura odierna, dei prossimi 7 giorni e qualità dell'aria.",
+    "technologies": ["REACT", "SCSS", "CONTEXT-API", "AXIOS", "GIT", "GITHUB"]
   }
 ]

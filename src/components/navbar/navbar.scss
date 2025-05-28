@@ -13,9 +13,16 @@
   left: 50%;
   top: 30px;
   transform: translate(-50%);
-  z-index: 99;
+  z-index: 700;
   .nav-item {
     text-decoration: none;
+    border-radius: 100px;
+    padding: 0.2em 0.5em;
+
+    &:hover {
+      background-color: $secondary-color;
+      transition: background-color 0.5s ease;
+    }
   }
 }
 
@@ -23,5 +30,13 @@
   .navbar {
     top: auto;
     bottom: 30px;
+    .nav-item {
+      // border-radius: none;
+
+      &:hover {
+        background-color: inherit;
+        transition: none;
+      }
+    }
   }
 }

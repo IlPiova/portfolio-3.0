@@ -1,13 +1,17 @@
 import "./about.scss";
 import aboutPhoto from "../../assets/imgs/about-photo.webp";
+import Tooltip from "../tooltip/TooltipComonent";
 
 export default function About() {
   return (
     <div className="about-container" id="about">
       <div className="about-info-container">
-        <div className="profile-image-container">
-          <img src={aboutPhoto} alt="about-photo" className="profile-pic" />
-        </div>
+        <Tooltip text={"Hey!"}>
+          <div className="profile-image-container">
+            <img src={aboutPhoto} alt="about-photo" className="profile-pic" />
+          </div>{" "}
+        </Tooltip>
+
         <div className="personal-info-container">
           <h1 className="about-title">Cristian Piovani</h1>
           <p className="place-info">Quartu Sant'Elena (CA)</p>

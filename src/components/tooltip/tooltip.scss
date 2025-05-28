@@ -1,0 +1,12 @@
+@import "../../style/utility";
+
+.tooltip-container {
+  display: inline-block;
+  .tooltip-text {
+    font-size: 0.8em;
+    background-color: $secondary-color;
+    border-radius: 4px;
+    padding: 0.2em 0.5em;
+    z-index: 600;
+  }
+}

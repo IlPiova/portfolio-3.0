@@ -1,6 +1,7 @@
 @import "../../style/utility";
 .general-social-container {
   @extend .container;
+  flex-wrap: wrap;
   width: 100%;
   gap: 1em;
   flex-direction: row;
