@@ -17,8 +17,7 @@
       .profile-pic {
         height: 100%;
         width: auto;
-        border-radius: 100%;
-
+        clip-path: circle();
         object-fit: cover;
       }
     }

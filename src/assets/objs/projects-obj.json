@@ -1,51 +1,41 @@
 [
   {
     "id": "1",
-    "name": "Portfolio",
-    "demoUrl": "https://ilpiova.github.io/CSS-S2I-firstproject/",
-    "codeUrl": "https://github.com/IlPiova/CSS-S2I-firstproject",
-    "imageUrl": "/assets/projects-imgs/portfolioScreen.webp",
-    "description": "Primo progetto del master per Front-End Developer.Il primo sito completo che ho creato.",
-    "technologies": ["HTML", "SCSS", "GIT", "GITHUB"]
-  },
-  {
-    "id": "2",
-    "name": "Simple Counter",
-    "demoUrl": "https://s2i-ilpiova-simple-counter.netlify.app",
-    "codeUrl": "https://github.com/IlPiova/simple-counter",
-    "imageUrl": "/assets/projects-imgs/simpleCounteeScreen.webp",
-    "description": "Secondo progetto del master per Front-End Developer. È stato fondamentale per capire gli eventi in Javascript e soprattutto migliorare nella precisione del codice. Permette di incrementare o decrementare il contatore di una unità, e la converte in binario, ottale ed esadecimale.",
-    "technologies": ["HTML", "CSS", "JAVASCRIPT", "GIT", "GITHUB"]
-  },
-  {
-    "id": "3",
-    "name": "HackerNews client",
-    "demoUrl": "https://ilpiova-s2i-hackersnewsproject.netlify.app",
-    "codeUrl": "https://github.com/IlPiova/S2I-JSAdvanced-APIHackersNews",
-    "imageUrl": "/assets/projects-imgs/hackerNewsScreen.webp",
-    "description": "Terzo progetto del master per Front-End Developer. Le sfide più grandi sono state capire Javascript asincrono e Webpack. Effettua una richiesta API a Hackernews per ottenere le notizie appena uscite. ",
+    "name": "PWA Task Manager ",
+    "demoUrl": "https://ilpiova-todotracker.netlify.app",
+    "codeUrl": "https://github.com/IlPiova/ecotracker",
+    "imageUrl": "/assets/projects-imgs/taskmanagerScreen.webp",
+    "description": "Progetto personale, installabile e diponibile offline, con memorizzazione in localhost. Primo progetto in cui uso React e TSX permette di creare nuove task con data e lista di appartenenza, modificabili in tutte le loro proprietà.",
     "technologies": [
-      "HTML",
-      "SCSS",
-      "JAVASCRIPT",
-      "REST-API",
-      "WEBPACK",
-      "AXIOS",
+      "REACT",
+      "TYPESCRIPT",
+      "SHADCNUI",
+      "TAILWIND",
+      "REDUX",
+      "REACT-ROUTER",
       "GIT",
       "GITHUB"
     ]
   },
   {
-    "id": "4",
-    "name": "Moov: servizio di sharing di mezzi di trasporto",
-    "demoUrl": "https://codepen.io/Cristian-Piovani/pen/vEYOawW?editors=0011",
-    "codeUrl": "https://github.com/IlPiova/S2I-Typescript-Project",
-    "imageUrl": "/assets/projects-imgs/moovScreen.webp",
-    "description": "Quarto progetto del master per Front-End Developer. Costruzione della struttura organizzativa base di un servizio di sharing di monopattini, scooter e biciclette. ",
-    "technologies": ["TYPESCRIPT", "CODEPEN", "OOP", "GIT", "GITHUB"]
+    "id": "2",
+    "name": "Weather dashboard",
+    "demoUrl": "https://ilpiova-weather-dashboard.netlify.app",
+    "codeUrl": "https://github.com/IlPiova/Weather-Dashboard",
+    "imageUrl": "/assets/projects-imgs/weatherDashboardScreen.webp",
+    "description": "Progetto personale che permette di visualizzare dati come temperatura odierna, dei prossimi 7 giorni e qualità dell'aria.",
+    "technologies": [
+      "REACT",
+      "SCSS",
+      "CONTEXT-API",
+      "AXIOS",
+      "GIT",
+      "RECHARTS",
+      "GITHUB"
+    ]
   },
   {
-    "id": "5",
+    "id": "4",
     "name": "Freshly Food",
     "demoUrl": "https://ilpiova-freshlyfood.netlify.app/",
     "codeUrl": "https://github.com/IlPiova/S2I-react-freshlyFood",
@@ -62,7 +52,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": "3",
     "name": "Progetto finale: Global Warming Data",
     "demoUrl": "https://ilpiova-s2i-global-warming-data.netlify.app/",
     "codeUrl": "https://github.com/IlPiova/S2I-finalProjecct-global-warming-data",
@@ -80,12 +70,48 @@
     ]
   },
   {
+    "id": "8",
+    "name": "Portfolio",
+    "demoUrl": "https://ilpiova.github.io/CSS-S2I-firstproject/",
+    "codeUrl": "https://github.com/IlPiova/CSS-S2I-firstproject",
+    "imageUrl": "/assets/projects-imgs/portfolioScreen.webp",
+    "description": "Primo progetto del master per Front-End Developer.Il primo sito completo che ho creato.",
+    "technologies": ["HTML", "SCSS", "GIT", "GITHUB"]
+  },
+  {
     "id": "7",
-    "name": "Weather dashboard",
-    "demoUrl": "https://ilpiova-weather-dashboard.netlify.app",
-    "codeUrl": "https://github.com/IlPiova/Weather-Dashboard",
-    "imageUrl": "/assets/projects-imgs/weatherDashboardScreen.webp",
-    "description": "Progetto personale che permette di visualizzare dati come temperatura odierna, dei prossimi 7 giorni e qualità dell'aria.",
-    "technologies": ["REACT", "SCSS", "CONTEXT-API", "AXIOS", "GIT", "GITHUB"]
+    "name": "Simple Counter",
+    "demoUrl": "https://s2i-ilpiova-simple-counter.netlify.app",
+    "codeUrl": "https://github.com/IlPiova/simple-counter",
+    "imageUrl": "/assets/projects-imgs/simpleCounteeScreen.webp",
+    "description": "Secondo progetto del master per Front-End Developer. È stato fondamentale per capire gli eventi in Javascript e soprattutto migliorare nella precisione del codice. Permette di incrementare o decrementare il contatore di una unità, e la converte in binario, ottale ed esadecimale.",
+    "technologies": ["HTML", "CSS", "JAVASCRIPT", "GIT", "GITHUB"]
+  },
+  {
+    "id": "6",
+    "name": "HackerNews client",
+    "demoUrl": "https://ilpiova-s2i-hackersnewsproject.netlify.app",
+    "codeUrl": "https://github.com/IlPiova/S2I-JSAdvanced-APIHackersNews",
+    "imageUrl": "/assets/projects-imgs/hackerNewsScreen.webp",
+    "description": "Terzo progetto del master per Front-End Developer. Le sfide più grandi sono state capire Javascript asincrono e Webpack. Effettua una richiesta API a Hackernews per ottenere le notizie appena uscite. ",
+    "technologies": [
+      "HTML",
+      "SCSS",
+      "JAVASCRIPT",
+      "REST-API",
+      "WEBPACK",
+      "AXIOS",
+      "GIT",
+      "GITHUB"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Moov: servizio di sharing di mezzi di trasporto",
+    "demoUrl": "https://codepen.io/Cristian-Piovani/pen/vEYOawW?editors=0011",
+    "codeUrl": "https://github.com/IlPiova/S2I-Typescript-Project",
+    "imageUrl": "/assets/projects-imgs/moovScreen.webp",
+    "description": "Quarto progetto del master per Front-End Developer. Costruzione della struttura organizzativa base di un servizio di sharing di monopattini, scooter e biciclette. ",
+    "technologies": ["TYPESCRIPT", "CODEPEN", "OOP", "GIT", "GITHUB"]
   }
 ]
